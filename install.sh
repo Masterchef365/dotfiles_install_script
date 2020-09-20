@@ -20,7 +20,7 @@ pip3 install --user neovim
 # Install Vim-Plug and all plugins
 sh -c "curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-vim +'PlugInstall' +'UpdateRemotePlugins' +'wqa'
+vim +'PlugInstall' +'UpdateRemotePlugins'
 
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
